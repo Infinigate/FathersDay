@@ -3,19 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Father's Day Celebration</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Father's Day Giveaway and Charity Drive</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .header img {
+            width: 200px;
+            margin-right: 20px;
+        }
+        .header .messages {
+            font-size: 1.5em;
+            color: #003366;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            gap: 20px;
+        }
+        .box {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 48%;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .box h2 {
+            color: #003366;
+            margin-bottom: 10px;
+        }
+        .box p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #E94B35; /* Red color similar to "Find Out More" button */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .button:hover {
+            background-color: #d43f2f; /* Slightly darker red for hover effect */
+        }
+        .box img {
+            width: 100%;
+            height: auto;
+            max-height: 250px; /* Ensuring both images are aligned */
+            object-fit: cover; /* Ensuring images fit well within the box */
+            border-radius: 10px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px 0;
+            border-top: 1px solid #ccc;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <div class="logo-container">
-        <img src="logo.png" alt="Father's Day Logo" class="logo">
-    </div>
     <div class="container">
-        <h1>Welcome to the Father's Day Celebration!</h1>
-        <p>Join us in celebrating our wonderful fathers.</p>
-        <button id="registerBtn">Register</button>
+        <div class="header">
+            <img src="logo.png" alt="Infinigate Logo">
+            <div class="messages">
+                <p>Happy Father's Day!</p>
+                <p>Celebrate and honor the amazing dads with us.</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <h2>Join Our Father's Day Giveaway!</h2>
+                <p>Celebrate Father's Day with a chance to win one of the 25 fantastic gift vouchers worth $1,000! Imagine the possibilities – a perfect gift for your dad! Best story would win a surprising gifts. Let's get started!</p>
+                <a href="https://your_redirect_url.com" class="button">REGISTER</a>
+                <img src="image1.png" alt="Father's Day Giveaway Image">
+            </div>
+            <div class="box">
+                <h2>Spreading Love: Join Our Father's Day Charity Drive!</h2>
+                <p>Help us make a difference by donating to our charity drive. Your contribution supports education, marine conservation, and the arts, making this Father's Day special for everyone.</p>
+                <a href="https://your_redirect_url.com" class="button">DONATE</a>
+                <img src="image2.jpg" alt="Father's Day Charity Image">
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright © 2024 Infinigate. All rights reserved. | <a href="path_to_privacy_policy.html">Privacy Policy</a> | <a href="path_to_terms_of_service.html">Terms of Service</a></p>
+        </div>
     </div>
-    
-    <script src="script.js"></script>
 </body>
 </html>
