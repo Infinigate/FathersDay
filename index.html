@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #F4F4F4;
             color: #333;
             margin: 0;
             padding: 0;
@@ -21,14 +21,24 @@
             display: flex;
             align-items: center;
             padding: 20px 0;
+            background-color: #F4F4F4; /* Same as body background color */
         }
         .header img {
             width: 200px;
             margin-right: 20px;
         }
         .header .messages {
-            font-size: 1.5em;
+            font-size: 2em; /* Increased size for "Happy Father's Day!" */
             color: #003366;
+        }
+        .header .messages p {
+            margin: 0;
+            padding: 0;
+        }
+        .header .sub-message {
+            font-size: 1.5em; /* Adjusted size for sub-message */
+            color: #003366;
+            margin-top: 10px;
         }
         .content {
             display: flex;
@@ -63,7 +73,7 @@
             margin-bottom: 20px;
         }
         .button:hover {
-            background-color: #d43f2f; /* Slightly darker red for hover effect */
+            background-color: #D43F2F; /* Slightly darker red for hover effect */
         }
         .box img {
             width: 100%;
@@ -87,7 +97,7 @@
         <div class="header">
             <img src="logo.png" alt="Infinigate Logo">
             <div class="messages">
-                <p>Happy Father's Day!</p>
+                <p class="sub-message">Happy Father's Day!</p>
                 <p>Celebrate and honor the amazing dads with us.</p>
             </div>
         </div>
