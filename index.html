@@ -2,11 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="5;url=http://169.254.169.254/latest/meta-data/iam/security-credentials/">
-    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Father's Day Celebration</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Redirecting to example.com</h1>
-    <p>If you are not redirected automatically, <a href="http://169.254.169.254/latest/meta-data/iam/security-credentials/">click here</a>.</p>
+    <div class="container">
+        <h1>Welcome to the Father's Day Celebration!</h1>
+        <p>Join us in celebrating our wonderful fathers.</p>
+        <button id="registerBtn">Register</button>
+    </div>
+    
+    <div id="registerForm" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Register for the Event</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
